@@ -1,9 +1,18 @@
 .logos{
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
     background-color: aqua;
     display: inline-block;
 }
-img #main-logo{
-
+#main-logo{
+height:100px;
+width: 100%;
+position: relative;
+background-color: yellow;
 }
+#uni-logo{
+    height:100px;
+    width: 100%;
+    position: relative;
+    background-color: yellow;
+    }
