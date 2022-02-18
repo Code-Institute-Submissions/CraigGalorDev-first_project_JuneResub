@@ -88,16 +88,21 @@ width:77.1%;
     float: left;
     height: 70px;
     width: 33.3%;
+    border-right:2px solid #3a3a3a;
     background-color: rgb(71, 255, 102);
 }
 #about-right{
     float: right;
     height: 70px;
     width: 33.3%;
+    border-left:2px solid #3a3a3a;
     background-color: rgb(255, 71, 184);
 }
 #about-center{
     height: 70px;
-    width: 180px;
+    width:32.9%;
+    float:left;
+    margin-left:0 0 0 33.5%;
+
     background-color: rgb(21, 4, 100);
 }
