@@ -1,15 +1,25 @@
+#wrapper
+
 /* This is the logo section */
+#nav-container{
+    height: 120px;
+    width:100%;
+    background-color: green;
+}
 .logos{
     width: 150px;
     height: 100px;
     background-color: aqua;
+    float:right;
     display: inline-block;
+    margin: 0;
 }
 #main-logo{
 height:100px;
 width: 100%;
 position: relative;
 background-color: yellow;
+clear: right;
 }
 #uni-logo{
     height:100px;
@@ -18,14 +28,20 @@ background-color: yellow;
     background-color: yellow;
 }
 /*This is the header/hero-image section*/
+header{
+margin: 0;
+background-color: black;
+}
 #hero-outer{
     height: 600px;
-    width:75%;
+    width:100%;
     overflow: hidden;
-    position:relative;
+    margin: 0;
+    clear: both;
 }
 #hero-image{
     height: 600px;
     width:100%;
     background: url(/assets/images/hollywood-monsters.jpg.png) no-repeat center center ;
+    margin: 0 auto;
 }
