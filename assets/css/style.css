@@ -76,3 +76,28 @@ nav ul li{
 #franky{
     margin-right: 4px;
 }
+/* main website content */
+/* About section columns*/
+.column-3{
+width: 600px;
+height:100%;
+margin: 0 0 0 11.5%;
+width:77.1%;
+}
+#about-left{
+    float: left;
+    height: 70px;
+    width: 33.3%;
+    background-color: rgb(71, 255, 102);
+}
+#about-right{
+    float: right;
+    height: 70px;
+    width: 33.3%;
+    background-color: rgb(255, 71, 184);
+}
+#about-center{
+    height: 70px;
+    width: 180px;
+    background-color: rgb(21, 4, 100);
+}
