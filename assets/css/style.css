@@ -51,7 +51,7 @@ header{
 nav{
 height:30px;
 width:77.1%;
-background-color: blue;
+background-color: #3a3a3a;
 position: center;
 margin: 0 0 0 11.5%;
 padding: 0;
@@ -69,5 +69,10 @@ nav ul li{
     display: inline-block;
     padding: 4px 5%;
     border-left: 2px solid #fff;
+    color: #fff;
     background-color: red;
+    text-align:center;
+}
+#franky{
+    margin-right: 4px;
 }
