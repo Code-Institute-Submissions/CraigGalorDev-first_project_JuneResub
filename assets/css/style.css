@@ -107,7 +107,7 @@ section{
 }
 .part2, .part3, .part4 {
     margin: 0 0 10% 0;
-    padding: 5% 0 0 0;
+    padding: 1% 0 0 0;
     clear:both;
     background-color: pink;
 }
@@ -117,13 +117,12 @@ section{
     margin: 0;
     width:100%;
     background-color: orange;
-    clear:both;
     border-bottom: 2px solid #3a3a3a;
 }
 .column-3 > div{
-
-    height: 200px;
-    background-color: black;
+ height: 200px;
+ width: 33%;
+background-color: black;
 }
 /* 2 column section */
 .column-2{
@@ -138,62 +137,52 @@ section{
     margin: 0;
     background-color: aqua;
 }
-#about-left{
-    float: left;
+#box-left{
+    float:left;
+    margin: 0;
     height: 200px;
     width: 33.3%;
-    border-right:2px solid #3a3a3a;
-    padding: 0 -2px 0 -2px;
+    padding: 0;
     text-align: center;
     background-color: rgb(71, 255, 102);
 }
-#about-right{
-    float: right;
+#box-right{
+    float:left;
+    margin: 0;
     height: 200px;
     width: 33.3%;
-    border-left:2px solid #3a3a3a;
-    padding: 0 -2px 0 -2px;
+    padding: 0;
     text-align: center;
     background-color: rgb(255, 71, 184);
 }
-#about-center{
-    height: 200px;
-    width:32.9%;
+#box-center{
     float:left;
-    margin-left:0 0 0 33.5%;
-    padding: 0 -2px 0 -2px;
+    height: 200px;
+    width:33.3%;
+    margin-left:0;
+    padding: 0;
     text-align: center;
-
     background-color: rgb(21, 4, 100);
 }
-/* monster icon section */
-#monster-icon-left{
-    float: left;
-    height: 350px;
-    width: 33.3%;
-    border-right:2px solid #3a3a3a;
-    padding: 0 -2px 0 -2px;
-    text-align: center;
-    background-color: rgb(20, 10, 168);
+.text-box{
+    height: 150px;
+    width: 90%;
+    color: #3a3a3a;
+    background-color: black;
 }
-#monster-icon-right{
-    float: right;
-    height: 350px;
-    width: 33.3%;
-    border-left:2px solid #3a3a3a;
-    padding: 0 -2px 0 -2px;
-    text-align: center;
-    background-color: rgb(156, 211, 29);
+.text-box-left{
+    margin: 35px 0px 35px 35px ;
+    border-right: 2px solid #3a3a3a;
+    text-align: left;
 }
-#monster-icon-center{
-    height: 350px;
-    width:32.9%;
-    float:left;
-    margin-left:0 0 0 33.5%;
-    padding: 0 -2px 0 -2px;
-    text-align: center;
-
-    background-color: rgb(100, 4, 36);
+.text-box-right{
+    margin: 35px 0px 35px 0px ;
+    border-left: 2px solid #3a3a3a;
+    text-align: right;
+}
+.text-box-center{
+    margin: 35px 0px 35px 0px ;
+    border-left: 2px solid #3a3a3a;
 }
 /* mini split columns*/
 .left-split{
@@ -233,10 +222,10 @@ section{
 /* footer section of website*/
 footer{
     clear: both;
-height:10%;
-width:77.1%;
+    height:40px;
+    width:100%;
 background-color: #3a3a3a;
-margin: 0 auto;
+margin: 10% 0 5% 0;
 padding: 0;
 position: relative;
 bottom: auto;
