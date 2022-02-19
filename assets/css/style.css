@@ -10,13 +10,12 @@
     background-color: brown;
 }
 /* main title/heading to website index page*/
-#welcome-heading{
-    float: left;
-    margin: 2% 0 0 0%;
-    color: #fff;
-}
 #select-monster{
     margin: 0 0 5% 38%;
+}
+header{
+    padding:0 10%;
+    background-color: black;
 }
 /* This is the logo section */
 .logos{
@@ -26,23 +25,31 @@
     background-color: aqua;
 }
 .logos a{
+    float:right;
     margin: 0 auto;
     display:inline-block;
 }
 #uni-logo{
-    margin: 2.5% 10% 0 0;
+    margin: 2.5% 50% 0 0;
     height:90px;
     width: 150px;
     background-color: yellow;
 }
+.main-heading-text{
+    float:left;
+    margin: 3.5% 0 0 0;
+}
 #welcome-heading{
     margin: 3.5% 10% 0 0;
 }
+#Bela-1-heading{
+    margin: 3.5% 10% 0 0;
+color:red;
+}
+#Bela-2-heading{
+color: #3a3a3a;
+}
 /*This is the header/hero-image section*/
-header{
-    padding:0 10%;
-    background-color: black;
-    }
 #hero-outer{
     width:100%;
     margin: 0 auto;
@@ -55,6 +62,25 @@ header{
     background: url(/assets/images/hollywood-monsters.jpg.png) no-repeat;
     background-color: blueviolet;
 }
+#bela-header-image{ height:250px;
+    width:inherit;
+    overflow: hidden;
+    background: url(/assets/images/bela-header.webp) no-repeat;
+    background-color: blueviolet;
+}
+#borris-header-image{ height:250px;
+    width:inherit;
+    overflow: hidden;
+    background: url(/assets/images/bela-header.webp) no-repeat;
+    background-color: blueviolet;
+}
+#chaney-header-image{ height:250px;
+    width:inherit;
+    overflow: hidden;
+    background: url(/assets/images/bela-header.webp) no-repeat;
+    background-color: blueviolet;
+}
+
 /* main navigation for website */
 nav{
 margin: 0 auto;
