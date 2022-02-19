@@ -129,3 +129,49 @@ width:77.1%;
 
     background-color: rgb(100, 4, 36);
 }
+/* 2 column section */
+.column-2{
+    height:100%;
+    margin: 0 0 0 11.5%;
+    width:77.1%;
+    background-color: rebeccapurple;
+}
+.column-2 > div{
+    width: 49.8%;
+    display:inline-block;
+    margin: 0;
+    background-color: aqua;
+}
+/* mini split columns*/
+.left-split{
+    float: left;
+    height: 70px;
+    width: 50%;
+    border-right:2px solid #3a3a3a;
+    background-color: rgb(20, 10, 168);
+}
+.right-split{
+    float: right;
+    height: 70px;
+    width: 50%;
+    border-left:2px solid #3a3a3a;
+    background-color: rgb(95, 141, 98);
+}
+.mini-left{
+    float:left;
+    width:49.8%;
+    position:relative;
+    left:0;
+    padding: 0 -2px 0 -2px;
+    text-align: center;
+    background-color: red;
+}
+.mini-right{
+    float: right;
+    width:49.8%;
+    position:relative;
+    right:0;
+    padding: 0 -2px 0 -2px;
+    text-align: center;
+    background-color: rgb(61, 12, 141);
+}
