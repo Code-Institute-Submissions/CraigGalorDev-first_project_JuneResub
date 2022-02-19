@@ -15,6 +15,9 @@
     margin: 2% 0 0 0%;
     color: #fff;
 }
+#select-monster{
+    margin: 0 0 5% 38%;
+}
 /* This is the logo section */
 .logos{
     width: 100%;
@@ -140,7 +143,7 @@ background-color: black;
 #box-left{
     float:left;
     margin: 0;
-    height: 200px;
+    height: 220px;
     width: 33.3%;
     padding: 0;
     text-align: center;
@@ -149,7 +152,7 @@ background-color: black;
 #box-right{
     float:left;
     margin: 0;
-    height: 200px;
+    height: 220px;
     width: 33.3%;
     padding: 0;
     text-align: center;
@@ -157,7 +160,7 @@ background-color: black;
 }
 #box-center{
     float:left;
-    height: 200px;
+    height: 220px;
     width:33.3%;
     margin-left:0;
     padding: 0;
@@ -183,6 +186,57 @@ background-color: black;
 .text-box-center{
     margin: 35px 0px 35px 0px ;
     border-left: 2px solid #3a3a3a;
+}
+.monster-box-left{
+    float:left;
+    height :200px;
+    width: 200px;
+    margin: 0 0 0 80px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 1px solid #3a3a3a;
+    background-image: url(/assets/images/hollywood-monsters.jpg.png) no-repeat center center;
+}
+.monster-box-right{
+    float:left;
+    height :200px;
+    width: 200px;
+    margin: 0 0 0 70px;
+    padding: 30pxpx;
+    border-radius: 50%;
+    border: 1px solid #3a3a3a;
+}
+.monster-box-center{
+    float:left;
+    height :200px;
+    width: 200px;
+    margin: 0 0 0 160;
+    padding: 2px;
+    background-size: 50%;
+    border: 1px solid #3a3a3a;
+    position: center;
+    background-color: black;
+}
+.monster-box-drac{
+    float: left;
+    height :30px;
+    width: 30px;
+    margin: 0 0 0 0px;
+    border-radius: 50%;
+    background: url(/assets/images/stand-in-logo.jpg) ;
+}
+.monster-box-frank{
+    height :100px;
+    width: 100px;
+    margin: 0 0 0 0px;
+    border-radius: 50%;
+}
+.monster-box-wolf{
+    height :100px;
+    width: 100px;
+    margin: 0 0 0 0px;
+    border-radius: 50%;
+    background: url(/assets/images/stand-in-logo.jpg) no-repeat center center;
 }
 /* mini split columns*/
 .left-split{
