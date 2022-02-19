@@ -87,7 +87,6 @@ main{
     background-color: aquamarine;
 }
 section{
-    height:600px;
     margin: 0 auto;
     height: 200px;
     background-color: #fff;
@@ -100,8 +99,8 @@ section{
 }
 .part1 >.column-3{
     height:220px;
-    margin: 0 0 10px 11.5%;
-    width:77.1%;
+    margin: 0;
+    width:100%;
     background-color: orange;
     clear:both;
     border-bottom: 2px solid #3a3a3a;
@@ -115,8 +114,8 @@ section{
 
 .column-3{
     height:250px;
-    margin: 0 0 50px 11.5%;
-    width:77.1%;
+    margin: 0;
+    width:100%;
     background-color: orange;
     clear:both;
     border-bottom: 2px solid #3a3a3a;
@@ -125,6 +124,19 @@ section{
 
     height: 200px;
     background-color: black;
+}
+/* 2 column section */
+.column-2{
+    height: 400px;
+    margin: 0;
+    width:100%;
+    background-color: rebeccapurple;
+}
+.column-2 > div{
+    width: 49.8%;
+    display:inline-block;
+    margin: 0;
+    background-color: aqua;
 }
 #about-left{
     float: left;
@@ -182,19 +194,6 @@ section{
     text-align: center;
 
     background-color: rgb(100, 4, 36);
-}
-/* 2 column section */
-.column-2{
-    height: 400px;
-    margin: 0 0 0 11.5%;
-    width:77.1%;
-    background-color: rebeccapurple;
-}
-.column-2 > div{
-    width: 49.8%;
-    display:inline-block;
-    margin: 0;
-    background-color: aqua;
 }
 /* mini split columns*/
 .left-split{
