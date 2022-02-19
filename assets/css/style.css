@@ -3,6 +3,11 @@
     padding: 0;
     border:none;
 }
+#welcome-heading{
+    float: left;
+    margin: 2% 0 0 12%;
+    color: #fff;
+}
 /* This is the logo section */
 #nav-container{
     height: 120px;
@@ -79,7 +84,6 @@ nav ul li{
 /* main website content */
 /* About section columns*/
 .column-3{
-width: 600px;
 height:100%;
 margin: 0 0 0 11.5%;
 width:77.1%;
@@ -187,3 +191,56 @@ width:77.1%;
     text-align: center;
     background-color: rgb(61, 12, 141);
 }
+/* footer section of website*/
+footer{
+    clear: both;
+height:10%;
+width:77.1%;
+background-color: #3a3a3a;
+margin: 0 auto;
+padding: 0;
+position: relative;
+bottom: auto;
+}
+footer > div{
+    margin: 0;
+    width: 33.3%;
+    float:left;
+    display: inline-block;
+    border-right: 2px solid #fff;
+    padding: 1px;
+    background-color: goldenrod;
+}
+.ft-right{
+    width: 32%;
+    float:right;
+    border: none;
+}
+.ft-left{
+    width: 33%;
+    float:left;
+    
+}
+.ft-center{
+    width: 32%;
+    padding:0 0 0 1.2%;
+}
+footer ul{
+    margin: auto;
+    height:50px;
+    width:100%;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(197, 28, 169);
+}
+footer ul li{
+    margin: auto;
+    height:50px;
+    width: 23%;
+    display:inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: blue;
+}
+
