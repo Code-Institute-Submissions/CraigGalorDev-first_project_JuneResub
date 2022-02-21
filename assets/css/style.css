@@ -11,6 +11,7 @@ header{
     background-color: black;
 }
 /* header content */
+/* main title of the page and thier alternatives*/
 .Title-container{
     height:100px;
     width:80%;
@@ -29,7 +30,7 @@ display:inline-block;
     background-color: aqua;
     font-size: large;
     font-family: sans-serif;
-    padding: 4% 0 0 0;
+    padding: 0 0 0 0;
 }
 #Title{
     background-color: black;
@@ -42,6 +43,7 @@ color:red;
 #Bela-2-heading{
 color: #3a3a3a;
 }
+/* This is the logo section */
 .logo-container{
     height:100px;
     width:50%;
@@ -63,6 +65,13 @@ color: #3a3a3a;
     width:160;
     background-color: yellow;
 }
+/*This is the header/hero-image section*/
+.hero-container{
+    height:300px;
+    width:100%;
+    background-color: yellow;
+}
+
 /* main navigation for website */
 nav{
     margin: 0 auto;
@@ -92,20 +101,7 @@ nav{
     #franky{
         margin-right: 4px;
     }
-/* This is the logo section */
-/*This is the header/hero-image section*/
-#hero-outer{
-    width:100%;
-    margin: 0 auto;
-    background-color: aqua;
-}
-#hero-image{
-    height:250px;
-    width:inherit;
-    overflow: hidden;
-    background: url(/assets/images/hollywood-monsters.jpg.png) no-repeat;
-    background-color: blueviolet;
-}
+
 #bela-header-image{ height:250px;
     width:inherit;
     overflow: hidden;
