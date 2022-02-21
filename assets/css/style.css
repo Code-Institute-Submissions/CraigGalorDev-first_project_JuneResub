@@ -143,56 +143,29 @@ main{
     width: 80%;
     background-color: aquamarine;
 }
-section{
-    margin: 0 auto;
-    height: 200px;
-    background-color: pink;
-}
 .part1{
-    margin: 0 0 10% 0;
-    padding: 0;
-    clear:both;
+    height: 250px;
+    width: 100%;
     background-color: pink;
-}
-.part1 >.column-3{
-    height:220px;
-    margin: 0;
-    width:100%;
-    background-color: orange;
-    clear:both;
-    border-bottom: 2px solid #3a3a3a;
 }
 .part2, .part3, .part4 {
-    margin: 0 0 10% 0;
-    padding: 1% 0 0 0;
-    clear:both;
-    background-color: pink;
+    height: 400px;
+    width: 100%;
+    background-color: red;
 }
-
-.column-3{
-    height:250px;
+.box-container1{
+    height:100%;
+    width:80%;
     margin: 0;
-    width:100%;
     background-color: orange;
     border-bottom: 2px solid #3a3a3a;
 }
-.column-3 > div{
- height: 200px;
- width: 33%;
-background-color: black;
-}
 /* 2 column section */
-.column-2{
-    height: 400px;
-    margin: 0;
-    width:100%;
-    background-color: rebeccapurple;
+.box1{
+
 }
-.column-2 > div{
-    width: 49.8%;
-    display:inline-block;
-    margin: 0;
-    background-color: aqua;
+.box2{    
+
 }
 #box-left{
     float:left;
