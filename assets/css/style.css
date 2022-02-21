@@ -6,15 +6,34 @@
 /* main title/heading to website index page*/
 header{
     width: 100%;
+    height:400px;
     padding:0;
     background-color: black;
 }
 /* header content */
-}
 .Title-container{
-    height:600px;
+    height:100px;
     width:80%;
+    margin: 0 0 0 10%;
+    padding: 0;
     background-color: blue;
+}
+.Title-container > div{
+display:inline-block;
+}
+.Title-box{
+    float: left;
+    height:100px;
+    width:50%;
+    margin: 0 0 0 0;
+    background-color: aqua;
+    font-size: large;
+    font-family: sans-serif;
+    padding: 4% 0 0 0;
+}
+#Title{
+    background-color: black;
+    color:red;
 }
 #Bela-1-heading{
     margin: 3.5% 10% 0 0;
@@ -23,16 +42,27 @@ color:red;
 #Bela-2-heading{
 color: #3a3a3a;
 }
-.logos a{
-    float:right;
-    margin: 0 auto;
-    display:inline-block;
+.logo-container{
+    height:100px;
+    width:50%;
+    margin: 0 0 0 0;
+    background-color:red;
+    font-size: large;
+    font-family: sans-serif;
+    padding: 0% 0 0 0;
 }
-#uni-logo{
-    margin: 2.5% 50% 0 0;
-    height:90px;
-    width: 150px;
+.logo1{
+    float:right;
+    margin: 4% 0 0 0;
+    height:80px;
+    width:160px;
+    background-color: pink;
+}
+.logo1 img{
+    height:80px;
+    width:160;
     background-color: yellow;
+}
 /* main navigation for website */
 nav{
     margin: 0 auto;
@@ -62,16 +92,7 @@ nav{
     #franky{
         margin-right: 4px;
     }
-#select-monster{
-    margin: 0 0 5% 38%;
-}
 /* This is the logo section */
-.logos{
-    width: 100%;
-    height: 100px;
-    margin: 0;
-    background-color: aqua;
-}
 /*This is the header/hero-image section*/
 #hero-outer{
     width:100%;
