@@ -31,8 +31,11 @@ display:inline-block;
     font-size: large;
     font-family: sans-serif;
     padding: 0 0 0 0;
+    
 }
 #Title{
+   margin:0 0 0 0 ;
+   padding: 10% 0 0 0;
     background-color: black;
     color:red;
 }
@@ -71,64 +74,79 @@ color: #3a3a3a;
     width:100%;
     background-color: yellow;
 }
+.hero-box{
+    margin: 0 0 0 10%;
+    height: 300px;
+    width: 80%;
+}
+#hero-image{
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+#hero-image img{
+    height:300px;
+    width:1200px;
+}
 
 /* main navigation for website */
 nav{
-    margin: 0 auto;
+    margin: 0 0 0 10%;
     height:30px;
-    width:100%;
+    width:80%;
     background-color: #3a3a3a;
-    position: center;
     padding: 0;
-    }
-    nav ul {
-        height: 20px;
-        width:50%;
-        background-color:olivedrab;
-        margin: 0 0 0 25%;
+}
+.nav-box{
+    float: left;
+    height:30px;
+    width: 80%;
+    background-color: gold;
+    position: center;
+    padding: 0
+}
+nav ul {
+    float: left;
+    height: 30px;
+    width:100%;
+    background-color:olivedrab;
+    margin: 0 0 0 20%;
         
-    }
-    nav ul li{
-        height: 20px;
-        width:70px;
+}
+nav ul li{
+        height: 18px;
+        width:15%;
+        margin: 3px 0;
         display: inline-block;
-        padding: 4px 5%;
-        border-left: 2px solid #fff;
+        padding: 0 2% 0 2%;
+        border-right: 2px solid #fff;
         color: #fff;
-        background-color: red;
+        background-color:red;
         text-align:center;
-    }
-    #franky{
-        margin-right: 4px;
-    }
-
-#bela-header-image{ height:250px;
-    width:inherit;
-    overflow: hidden;
-    background: url(/assets/images/bela-header.webp) no-repeat;
-    background-color: blueviolet;
 }
-#borris-header-image{ height:250px;
-    width:inherit;
-    overflow: hidden;
-    background: url(/assets/images/bela-header.webp) no-repeat;
-    background-color: blueviolet;
+#nav-right{
+    border-right: none;
 }
-#chaney-header-image{ height:250px;
-    width:inherit;
-    overflow: hidden;
-    background: url(/assets/images/bela-header.webp) no-repeat;
-    background-color: blueviolet;
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color:red;
 }
 /* main website content */
 /* About section columns*/
 main{
+    float: left;
+    margin: 0 0 0 10%;
+    width: 80%;
     background-color: aquamarine;
 }
 section{
     margin: 0 auto;
     height: 200px;
-    background-color: #fff;
+    background-color: pink;
 }
 .part1{
     margin: 0 0 10% 0;
