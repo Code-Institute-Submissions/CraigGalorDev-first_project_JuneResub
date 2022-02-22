@@ -10,6 +10,12 @@ header{
     padding:0;
     background-color: black;
 }
+.welcome-main > h2{
+color:blue;
+}
+.drac-main h2{
+    color: red;
+    }
 /* header content */
 /* main title of the page and thier alternatives*/
 .Title-container{
@@ -162,39 +168,93 @@ main{
 }
 /* 2 column section */
 .box1{
-
+    float: left;
+height: 100%;
+width: 33.33%;
+background-color:purple;
 }
-.box2{    
-
+.box2{   
+    float: left; 
+    height: 100%;
+    width: 47%;
+    padding: 0 0 0 3%;
+    background-color:rgb(12, 182, 55);
 }
-#box-left{
+.box3{
+    float: left;
+    height: 80%;
+    width: 100%;
+    background-color:yellow;;
+}
+.box4{
+    float: left;
+    height: 80%;
+    width: 44%;
+    background-color:rgb(31, 163, 196);
+    border-right:1px solid #3a3a3a ;
+    padding: 0 0 0 5%;
+}
+.top-text-left{
     float:left;
-    margin: 0;
-    height: 220px;
-    width: 33.3%;
-    padding: 0;
+    margin: 0 0 0 10%;
+    height: 80%;
+    width: 90%;
+    padding: 5% 0 0 5%;
     text-align: center;
+    text-align: left;
     background-color: rgb(71, 255, 102);
 }
-#box-right{
+.top-text-right{
     float:left;
-    margin: 0;
-    height: 220px;
-    width: 33.3%;
-    padding: 0;
+    margin: 0 10% 0 0;
+    height: 80%;
+    width: 90%;
+    padding: 5% 0 0 5%;
     text-align: center;
-    background-color: rgb(255, 71, 184);
+    text-align: left;
+    background-color: rgb(52, 14, 155);
 }
-#box-center{
+.top-text-center{
     float:left;
-    height: 220px;
-    width:33.3%;
-    margin-left:0;
-    padding: 0;
+    margin: 0 5% 0 5%;
+    height: 80%;
+    width: 90%;
+    padding: 5% 0 0 5%;
     text-align: center;
+    text-align: left;
     background-color: rgb(21, 4, 100);
 }
-.text-box{
+.text-left{
+    float:left;
+    margin: 0 0 0 10%;
+    height: 90%;
+    width: 90%;
+    padding: 5% 0 0 5%;
+    text-align: center;
+    text-align: left;
+    background-color: rgb(71, 255, 102);
+}
+.text-right{
+    float:left;
+    margin: 0 10% 0 0;
+    height: 90%;
+    width: 90%;
+    padding: 5% 0 0 5%;
+    text-align: center;
+    text-align: left;
+    background-color: rgb(52, 14, 155);
+}
+.text-center{
+    float:left;
+    margin: 0 5% 0 5%;
+    height: 90%;
+    width: 90%;
+    padding: 5% 0 0 5%;
+    text-align: center;
+    text-align: left;
+    background-color: rgb(21, 4, 100);
+}
+/*.text-box{
     height: 150px;
     width: 90%;
     color: #3a3a3a;
@@ -213,93 +273,8 @@ main{
 .text-box-center{
     margin: 35px 0px 35px 0px ;
     border-left: 2px solid #3a3a3a;
-}
-.monster-box-left{
-    float:left;
-    height :200px;
-    width: 200px;
-    margin: 0 0 0 80px;
-    padding: 2px;
-    border-radius: 50%;
-    border: 1px solid #3a3a3a;
-    background-image: url(/assets/images/hollywood-monsters.jpg.png) no-repeat center center;
-}
-.monster-box-right{
-    float:left;
-    height :200px;
-    width: 200px;
-    margin: 0 0 0 70px;
-    padding: 30pxpx;
-    border-radius: 50%;
-    border: 1px solid #3a3a3a;
-}
-.monster-box-center{
-    float:left;
-    height :200px;
-    width: 200px;
-    margin: 0 0 0 160;
-    padding: 2px;
-    background-size: 50%;
-    border: 1px solid #3a3a3a;
-    position: center;
-    background-color: black;
-}
-.monster-box-drac{
-    float: left;
-    height :30px;
-    width: 30px;
-    margin: 0 0 0 0px;
-    border-radius: 50%;
-    background: url(/assets/images/stand-in-logo.jpg) ;
-}
-.monster-box-frank{
-    height :100px;
-    width: 100px;
-    margin: 0 0 0 0px;
-    border-radius: 50%;
-}
-.monster-box-wolf{
-    height :100px;
-    width: 100px;
-    margin: 0 0 0 0px;
-    border-radius: 50%;
-    background: url(/assets/images/stand-in-logo.jpg) no-repeat center center;
-}
+}*/
 /* mini split columns*/
-.left-split{
-    float: left;
-    height: 200px;
-    width: 50%;
-    border-right:2px solid #3a3a3a;
-    background-color: rgb(20, 10, 168);
-}
-.right-split{
-    float: right;
-    height: 200px;
-    width: 50%;
-    border-left:2px solid #3a3a3a;
-    background-color: rgb(95, 141, 98);
-}
-.mini-left{
-    height: 200px;
-    float:left;
-    width:49.8%;
-    position:relative;
-    left:0;
-    padding: 0 -2px 0 -2px;
-    text-align: center;
-    background-color: red;
-}
-.mini-right{
-    height: 200px;
-    float: right;
-    width:49.8%;
-    position:relative;
-    right:0;
-    padding: 0 -2px 0 -2px;
-    text-align: center;
-    background-color: rgb(61, 12, 141);
-}
 /* footer section of website*/
 footer{
     clear: both;
