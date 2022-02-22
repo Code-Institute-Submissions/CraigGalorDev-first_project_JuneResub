@@ -166,6 +166,13 @@ main{
     background-color: orange;
     border-bottom: 2px solid #3a3a3a;
 }
+.box-container2{
+    height:100%;
+    width:100%;
+    margin: 0;
+    background-color: rgb(7, 185, 51);
+    border-top: 2px solid #3a3a3a;
+}
 /* 2 column section */
 .box1{
     float: left;
@@ -177,18 +184,18 @@ background-color:purple;
     float: left; 
     height: 100%;
     width: 47%;
-    padding: 0 0 0 3%;
+    padding: 6% 0 0 3%;
     background-color:rgb(12, 182, 55);
 }
 .box3{
     float: left;
-    height: 80%;
+    height: 95%;
     width: 100%;
     background-color:yellow;;
 }
 .box4{
     float: left;
-    height: 80%;
+    height: 100%;
     width: 44%;
     background-color:rgb(31, 163, 196);
     border-right:1px solid #3a3a3a ;
@@ -277,54 +284,20 @@ background-color:purple;
 /* mini split columns*/
 /* footer section of website*/
 footer{
-    clear: both;
-    height:40px;
-    width:100%;
-background-color: #3a3a3a;
-margin: 10% 0 5% 0;
-padding: 0;
-position: relative;
-bottom: auto;
+    float: left;
+    height: 150px;
+    width: 100%;
 }
-footer > div{
-    margin: 0;
-    width: 33.3%;
-    float:left;
-    display: inline-block;
-    border-right: 2px solid #fff;
-    padding: 1px;
-    background-color: goldenrod;
+.link-container{
+margin: 0 0 0 -5.2%;
+height: 80%;
+width: 100%;
+background-color: pink;
 }
-.ft-right{
-    width: 32%;
-    float:right;
-    border: none;
-}
-.ft-left{
-    width: 33%;
-    float:left;
-    
-}
-.ft-center{
-    width: 32%;
-    padding:0 0 0 1.2%;
-}
-footer ul{
-    margin: auto;
-    height:50px;
-    width:100%;
-    color: #fff;
-    text-decoration: none;
-    background-color: rgb(197, 28, 169);
-}
-footer ul li{
-    margin: auto;
-    height:50px;
-    width: 23%;
-    display:inline-block;
-    color: #fff;
-    text-decoration: none;
-    margin: 0 auto;
-    background-color: blue;
+.link-box{
+    float: left;
+    height: 70%;
+    width: 25%;
+    background-color:black;
 }
 
