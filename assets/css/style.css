@@ -325,6 +325,9 @@ height: 80%;
 width: 100%;
 background-color: pink;
 }
+#contain-left{
+    border-right: 2px solid #3a3a3a;
+}
 .link-box{
     overflow: hidden;
     margin: 0 0 0 3%;
@@ -335,7 +338,7 @@ background-color: pink;
     border-radius: 50%;
 }
 #left-link{
-    margin-left: 7%;
+    margin-left: 5%;
 }
 #face{
     font-size: 200%;
@@ -369,6 +372,12 @@ background-color: pink;
     width: 100%;
     color:#3a3a3a;
     background-color: yellow;
+}
+.foot-text1{
+    margin: 0 10% 0 10%;
+   height:40px;
+   width:80%;
+   background-color: #3a3a3a; 
 }
 /*#right-link{
     margin-left:;
