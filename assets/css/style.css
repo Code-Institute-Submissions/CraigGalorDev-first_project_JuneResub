@@ -326,22 +326,33 @@ width: 100%;
 background-color: pink;
 }
 .link-box{
+    overflow: hidden;
     margin: 0 0 0 3%;
     float: left;
     height: 60px;
     width: 60px;
-    background-color:black;
-    border-right: 2px solid #fff;
+    border: 2px solid #3a3a3a;
     border-radius: 50%;
 }
 #left-link{
     margin-left: 7%;
 }
 #face{
+    font-size: 200%;
+    margin:24% 0 0 33%;
     height: 100%;
     width: 100%;
+    color:#3a3a3a;
     background-color: yellow;
 
+}
+#twitt{
+    font-size:200%;
+    margin:24% 0 0 24%;
+    height: 100%;
+    width: 100%;
+    color:#3a3a3a;
+    background-color: yellow;
 }
 /*#right-link{
     margin-left:;
