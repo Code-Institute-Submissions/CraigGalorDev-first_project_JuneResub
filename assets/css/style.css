@@ -354,6 +354,22 @@ background-color: pink;
     color:#3a3a3a;
     background-color: yellow;
 }
+#tube{
+    font-size:240%;
+    margin:20% 0 0 15%;
+    height: 100%;
+    width: 100%;
+    color:#3a3a3a;
+    background-color: yellow;
+}
+#gram{
+    font-size:260%;
+    margin: 17% 0 0 20%;
+    height: 100%;
+    width: 100%;
+    color:#3a3a3a;
+    background-color: yellow;
+}
 /*#right-link{
     margin-left:;
 }*/
