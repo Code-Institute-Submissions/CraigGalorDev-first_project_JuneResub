@@ -101,7 +101,6 @@ color: #3a3a3a;
     height:300px;
     width:1200px;
 }
-
 /* main navigation for website */
 nav{
     margin: 0 0 0 10%;
@@ -173,19 +172,12 @@ main{
     background-color: orange;
     border-bottom: 2px solid #3a3a3a;
 }
-.box-container2{
-    height:100%;
-    width:100%;
-    margin: 0;
-    background-color: rgb(7, 185, 51);
-    border-top: 2px solid #3a3a3a;
-}
 /* 2 column section */
 .box1{
     float: left;
-height: 100%;
-width: 33.33%;
-background-color:purple;
+    height: 100%;
+    width: 33.33%;
+    background-color:purple;
 }
 .box2{   
     float: left; 
@@ -203,7 +195,7 @@ background-color:purple;
 .box4{
     float: left;
     height: 100%;
-    width: 44%;
+    width: 41%;
     background-color:rgb(31, 163, 196);
     border-right:1px solid #3a3a3a ;
     padding: 0 0 0 5%;
@@ -211,29 +203,27 @@ background-color:purple;
 .top-text-left{
     float:left;
     margin: 0 0 0 10%;
-    height: 80%;
+    height: 200px;
     width: 90%;
-    padding: 5% 0 0 5%;
-    text-align: center;
-    text-align: left;
+    padding: 10px 0 0 0;
     background-color: rgb(71, 255, 102);
 }
 .top-text-right{
     float:left;
     margin: 0 10% 0 0;
-    height: 80%;
+    height: 200px;
     width: 90%;
-    padding: 5% 0 0 5%;
+    padding: 10px 0 0 0;
     text-align: center;
     text-align: left;
     background-color: rgb(52, 14, 155);
 }
 .top-text-center{
     float:left;
-    margin: 0 5% 0 5%;
-    height: 80%;
-    width: 90%;
-    padding: 5% 0 0 5%;
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    padding: 10px 0 0 0;
     text-align: center;
     text-align: left;
     background-color: rgb(21, 4, 100);
@@ -241,29 +231,27 @@ background-color:purple;
 .text-left{
     float:left;
     margin: 0 0 0 10%;
-    height: 90%;
+    height: 350px;
     width: 90%;
-    padding: 5% 0 0 5%;
-    text-align: center;
-    text-align: left;
+    padding: 10px 0 0 0;
     background-color: rgb(71, 255, 102);
 }
 .text-right{
     float:left;
     margin: 0 10% 0 0;
-    height: 90%;
+    height: 350px;
     width: 90%;
-    padding: 5% 0 0 5%;
+    padding: 10px 0 0 0;
     text-align: center;
     text-align: left;
     background-color: rgb(52, 14, 155);
 }
 .text-center{
     float:left;
-    margin: 0 5% 0 5%;
-    height: 90%;
-    width: 90%;
-    padding: 5% 0 0 5%;
+    margin: 0 0 0 0;
+    height: 350px;
+    width: 100%;
+    padding: 10px 0 0 0;
     text-align: center;
     text-align: left;
     background-color: rgb(21, 4, 100);
@@ -290,21 +278,72 @@ background-color:purple;
 }*/
 /* mini split columns*/
 /* footer section of website*/
+.foot-container{
+    height:200px;
+    width:100%;
+    margin: 0;
+    background-color: rgb(19, 7, 185);
+    border-top: 2px solid #3a3a3a;
+}
+.foot-left{
+    float:left;
+    margin: 0 0 0 10%;
+    height: 200px;
+    width: 90%;
+    padding:0;
+    background-color: rgb(71, 255, 102);
+}
+.foot-right{
+    float:left;
+    margin: 0 10% 0 0;
+    height: 200px;
+    width: 90%;
+    padding:0;
+    text-align: center;
+    text-align: left;
+    background-color: rgb(52, 14, 155);
+}
+.foot-center{
+    float:left;
+    margin: 0 0 0 0;
+    height: 200px;
+    width: 100%;
+    padding:0;
+    text-align: center;
+    text-align: left;
+    background-color: rgb(21, 4, 100);
+}
+
 footer{
     float: left;
-    height: 150px;
+    height: 200px;
     width: 100%;
 }
 .link-container{
-margin: 0 0 0 -5.2%;
+margin: 20px 0 0 0;
 height: 80%;
 width: 100%;
 background-color: pink;
 }
 .link-box{
+    margin: 0 0 0 3%;
     float: left;
-    height: 70%;
-    width: 25%;
+    height: 60px;
+    width: 60px;
     background-color:black;
+    border-right: 2px solid #fff;
+    border-radius: 50%;
 }
+#left-link{
+    margin-left: 7%;
+}
+#face{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+
+}
+/*#right-link{
+    margin-left:;
+}*/
 
