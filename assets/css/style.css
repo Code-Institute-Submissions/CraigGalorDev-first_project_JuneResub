@@ -85,21 +85,37 @@ color: #3a3a3a;
     height: 300px;
     width: 80%;
 }
-.cover{
-    height: 100%;
-    width:100%;
-    float:left;
-    opacity: 6;
-    background-color: yellow;
+#cover{
+    color: black;
+    margin: 10% 0 0 0;
+    float: right;
+    height: 200px;
+    width:400px;
+    background-color:#3a3a3a;
+    opacity: 40%;
+}
+#universal-hollywood{
+    height: 100px;
+    width:100px;
 }
 #hero-image{
     overflow: hidden;
     height: 300px;
     width: 100%;
 }
-#hero-image img{
+.img{
+    background-image: url(/assets/images/bela-header.webp);
     height:300px;
     width:1200px;
+    background-color: purple;
+}
+.studios-icon{
+    margin: 0 0 0 40%;
+    height: 80px;
+    width: 100px;
+    background-image: url(/assets/images/ush-header-logo-b.webp);
+    background-size: contain ;
+    background-repeat: no-repeat;
 }
 /* main navigation for website */
 nav{
@@ -145,7 +161,18 @@ nav ul li a{
 }
 nav ul li a:hover{
     text-decoration: none;
+}
+#index:hover{
+    color: aqua;
+}
+#dracy:hover{
     color:red;
+}
+#franky:hover{
+    color: lime;
+}
+#wolfy:hover{
+    color: orangered;
 }
 /* main website content */
 /* About section columns*/
@@ -200,7 +227,7 @@ main{
     border-right:1px solid #3a3a3a ;
     padding: 0 0 0 5%;
 }
-.top-text-left{
+.top-content-left{
     float:left;
     margin: 0 0 0 10%;
     height: 200px;
@@ -208,7 +235,7 @@ main{
     padding: 10px 0 0 0;
     background-color: rgb(71, 255, 102);
 }
-.top-text-right{
+.top-content-right{
     float:left;
     margin: 0 10% 0 0;
     height: 200px;
@@ -218,7 +245,7 @@ main{
     text-align: left;
     background-color: rgb(52, 14, 155);
 }
-.top-text-center{
+.top-content-center{
     float:left;
     margin: 0;
     height: 200px;
@@ -256,6 +283,35 @@ main{
     text-align: left;
     background-color: rgb(21, 4, 100);
 }
+.top-text-left{
+    color: red;
+    float: left;
+    margin:  0 0 0 10%;
+    height:180px;
+    width:90%;
+    padding: 0 10% 0 0;
+    background-color: #fff;
+}
+.top-text-right{
+    float: left;
+    margin:  0 10% 0 0;
+    height:180px;
+    width:90%;
+    background-color: #fff;
+}
+.top-text-center{
+    float: left;
+    margin:  0 0 0 10%;
+    height:180px;
+    width:80%;
+    background-color: #fff;
+}
+.text-top{
+    float: left;
+height: 180px;    
+width: 90%;
+background-color: black;
+}
 /*.text-box{
     height: 150px;
     width: 90%;
@@ -279,16 +335,22 @@ main{
 /* mini split columns*/
 /* footer section of website*/
 .foot-container{
-    height:200px;
+    height:100px;
     width:100%;
     margin: 0;
     background-color: rgb(19, 7, 185);
     border-top: 2px solid #3a3a3a;
 }
+.foot-box{
+    float: left;
+    height: 100px;
+    width: 33.33%;
+    background-color:purple;
+}
 .foot-left{
     float:left;
     margin: 0 0 0 10%;
-    height: 200px;
+    height: 100px;
     width: 90%;
     padding:0;
     background-color: rgb(71, 255, 102);
@@ -296,7 +358,7 @@ main{
 .foot-right{
     float:left;
     margin: 0 10% 0 0;
-    height: 200px;
+    height: 100px;
     width: 90%;
     padding:0;
     text-align: center;
@@ -306,7 +368,7 @@ main{
 .foot-center{
     float:left;
     margin: 0 0 0 0;
-    height: 200px;
+    height: 100px;
     width: 100%;
     padding:0;
     text-align: center;
@@ -316,12 +378,12 @@ main{
 
 footer{
     float: left;
-    height: 200px;
+    height: 100px;
     width: 100%;
 }
 .link-container{
 margin: 20px 0 0 0;
-height: 80%;
+height: 50%;
 width: 100%;
 background-color: pink;
 }
@@ -330,19 +392,19 @@ background-color: pink;
 }
 .link-box{
     overflow: hidden;
-    margin: 0 0 0 3%;
+    margin: 0 0 0 5%;
     float: left;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     border: 2px solid #3a3a3a;
     border-radius: 50%;
 }
 #left-link{
-    margin-left: 5%;
+    margin-left: 8%;
 }
 #face{
     font-size: 200%;
-    margin:24% 0 0 33%;
+    margin:18% 0 0 27%;
     height: 100%;
     width: 100%;
     color:#3a3a3a;
@@ -351,7 +413,7 @@ background-color: pink;
 }
 #twitt{
     font-size:200%;
-    margin:24% 0 0 24%;
+    margin:20% 0 0 17%;
     height: 100%;
     width: 100%;
     color:#3a3a3a;
@@ -359,7 +421,7 @@ background-color: pink;
 }
 #tube{
     font-size:240%;
-    margin:20% 0 0 15%;
+    margin:15% 0 0 6%;
     height: 100%;
     width: 100%;
     color:#3a3a3a;
@@ -367,7 +429,7 @@ background-color: pink;
 }
 #gram{
     font-size:260%;
-    margin: 17% 0 0 20%;
+    margin: 10% 0 0 13%;
     height: 100%;
     width: 100%;
     color:#3a3a3a;
@@ -375,7 +437,7 @@ background-color: pink;
 }
 .foot-text1{
     margin: 0 10% 0 10%;
-   height:40px;
+   height:70px;
    width:80%;
    background-color: #3a3a3a; 
 }
