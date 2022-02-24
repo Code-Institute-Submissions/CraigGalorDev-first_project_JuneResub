@@ -314,6 +314,7 @@ background-color: black;
 }
 /* Monster icons*/
 .monster-container{
+    overflow:visible;
     margin: 0 0 0 10%;
     height: 300px;
     width: 300px;
@@ -321,10 +322,64 @@ background-color: black;
     border-radius: 50%;
     border: 2px solid red;
 }
-.monster-container img{
+.monster-dracula{
+    overflow: hidden;
+    margin: 0 0 0 10%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #3a3a3a;
+}
+.monster-dracula:hover{
+    margin: 0 30% 0 0;
+    height: 350px;
+    width: 350px;
+    border: 4px solid red;
+}
+.monster-dracula img{
     margin: 0 0 0 -5%;
     max-height: 150%;
     max-width: 150%;
+}
+.monster-frankenstien{
+    overflow: hidden;
+    margin: 0 0 0 10%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #3a3a3a;
+}
+.monster-frankenstien:hover{
+    margin: 0 0 0 0;
+    height: 350px;
+    width: 350px;
+    border: 4px solid lime;
+}
+.monster-frankenstien img{
+    margin: 0 0 0 -5%;
+    max-height: 150%;
+    max-width: 150%;
+}
+.monster-wolfman{
+    margin: 2% 0 0 10%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #3a3a3a;
+}
+.monster-wolfman:hover{
+    margin: 0 30% 0 0;
+    height: 350px;
+    width: 350px;
+    border: 4px solid orangered;
+}
+.monster-wolfman img{
+    margin: 0 0 0 0;
+    max-height: 134%;
+    max-width: 134%;
 }
 /*.text-box{
     height: 150px;
