@@ -312,6 +312,20 @@ height: 180px;
 width: 90%;
 background-color: black;
 }
+/* Monster icons*/
+.monster-container{
+    margin: 0 0 0 10%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.monster-container img{
+    margin: 0 0 0 -5%;
+    max-height: 150%;
+    max-width: 150%;
+}
 /*.text-box{
     height: 150px;
     width: 90%;
