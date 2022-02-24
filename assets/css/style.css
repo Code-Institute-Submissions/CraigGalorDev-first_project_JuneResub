@@ -8,14 +8,7 @@ header{
     width: 100%;
     height:400px;
     padding:0;
-    background-color: black;
 }
-.welcome-main > h2{
-color:blue;
-}
-.drac-main h2{
-    color: red;
-    }
 /* header content */
 /* main title of the page and thier alternatives*/
 .Title-container{
@@ -23,7 +16,6 @@ color:blue;
     width:80%;
     margin: 0 0 0 10%;
     padding: 0;
-    background-color: blue;
 }
 .Title-container > div{
 display:inline-block;
@@ -33,52 +25,39 @@ display:inline-block;
     height:100px;
     width:50%;
     margin: 0 0 0 0;
-    background-color: aqua;
     font-size: large;
     font-family: sans-serif;
     padding: 0 0 0 0;
-    
 }
 #Title{
    margin:0 0 0 0 ;
    padding: 10% 0 0 0;
-    background-color: black;
-    color:red;
-}
-#Bela-1-heading{
-    margin: 3.5% 10% 0 0;
-color:red;
-}
-#Bela-2-heading{
-color: #3a3a3a;
+   color:red;
 }
 /* This is the logo section */
 .logo-container{
     height:100px;
     width:50%;
     margin: 0 0 0 0;
-    background-color:red;
     font-size: large;
     font-family: sans-serif;
     padding: 0% 0 0 0;
 }
 .logo1{
     float:right;
-    margin: 4% 0 0 0;
+    margin: 3% 0 0 0;
     height:80px;
     width:160px;
-    background-color: pink;
 }
 .logo1 img{
+    float: right;
     height:80px;
     width:160;
-    background-color: yellow;
 }
 /*This is the header/hero-image section*/
 .hero-container{
     height:300px;
     width:100%;
-    background-color: yellow;
 }
 .hero-box{
     margin: 0 0 0 10%;
@@ -107,7 +86,6 @@ color: #3a3a3a;
     background-image: url(/assets/images/bela-header.webp);
     height:300px;
     width:1200px;
-    background-color: purple;
 }
 .studios-icon{
     margin: 0 0 0 40%;
@@ -129,17 +107,14 @@ nav{
     float: left;
     height:30px;
     width: 80%;
-    background-color: gold;
     position: center;
-    padding: 0
+    padding: 0;
 }
 nav ul {
     float: left;
     height: 30px;
     width:100%;
-    background-color:olivedrab;
     margin: 0 0 0 20%;
-        
 }
 nav ul li{
         height: 18px;
@@ -149,7 +124,6 @@ nav ul li{
         padding: 0 2% 0 2%;
         border-right: 2px solid #fff;
         color: #fff;
-        background-color:red;
         text-align:center;
 }
 #nav-right{
@@ -162,6 +136,7 @@ nav ul li a{
 nav ul li a:hover{
     text-decoration: none;
 }
+/* customised link colours associated with monster page*/
 #index:hover{
     color: aqua;
 }
@@ -175,7 +150,6 @@ nav ul li a:hover{
     color: orangered;
 }
 /* main website content */
-/* About section columns*/
 main{
     float: left;
     margin: 0 0 0 10%;
@@ -185,30 +159,27 @@ main{
 .part1{
     height: 250px;
     width: 100%;
-    background-color: pink;
 }
 .part2, .part3, .part4 {
-    height: 400px;
+    height: 500px;
     width: 100%;
-    background-color: red;
 }
 .box-container1{
     height:100%;
     width:100%;
     margin: 0;
-    background-color: orange;
     border-bottom: 2px solid #3a3a3a;
 }
-/* 2 column section */
+
 .box1{
     float: left;
     height: 100%;
     width: 33.33%;
-    background-color:purple;
 }
+/* 2 column section */
 .box2{   
     float: left; 
-    height: 100%;
+    height: 500px;
     width: 47%;
     padding: 6% 0 0 3%;
     background-color:rgb(12, 182, 55);
@@ -222,18 +193,50 @@ main{
 .box4{
     float: left;
     height: 100%;
-    width: 41%;
+    width: 40%;
     background-color:rgb(31, 163, 196);
+    border-right:1px solid #3a3a3a ;
+     margin: 0 5% 0 0;
+}
+.box5{
+    float: left;
+    height: 100%;
+    width: 82%;
+    background-color:pink;
     border-right:1px solid #3a3a3a ;
     padding: 0 0 0 5%;
 }
+/* this box is for video media*/
+.box-video{
+    margin: 6.3% 0 0 0;
+    float: left;
+    height: 300px;
+    width: 470px;
+    background-color:rgb(111, 196, 31);
+    border:1px solid #3a3a3a ;
+    padding: 0 0 0 0;
+}
+.side-text{
+    margin: 2% 0 0 0 ;
+    height:300px ;
+    width:100% ;
+    background-color: red;
+    border: 1px solid #3a3a3a;
+}
+.side-img{
+    margin: 15% 0 0 0 ;
+    height:300px ;
+    width:100% ;
+    background-color: purple;
+    border: 1px solid #3a3a3a;
+}
+/* About section columns*/
 .top-content-left{
     float:left;
     margin: 0 0 0 10%;
     height: 200px;
     width: 90%;
     padding: 10px 0 0 0;
-    background-color: rgb(71, 255, 102);
 }
 .top-content-right{
     float:left;
@@ -243,18 +246,57 @@ main{
     padding: 10px 0 0 0;
     text-align: center;
     text-align: left;
-    background-color: rgb(52, 14, 155);
 }
 .top-content-center{
     float:left;
-    margin: 0;
     height: 200px;
     width: 100%;
     padding: 10px 0 0 0;
     text-align: center;
     text-align: left;
-    background-color: rgb(21, 4, 100);
 }
+.top-text-left{
+    float: left;
+    height:180px;
+    width:100%;
+    padding: 0 0 0 0;
+    border-right: 2px solid #3a3a3a;
+}
+.top-text-right{
+    float: left;
+    height:180px;
+    width:100%;
+    border-left: 2px solid #3a3a3a;
+}
+.top-text-center{
+    float: left;
+    margin:  0 0 0 10%;
+    height:180px;
+    width:80%;
+}
+.about-left{
+    color:red;
+    float: left;
+    height: 180px;    
+    width: 90%;
+    background-color: black;
+}
+.about-center{
+    color:red;
+    float: left;
+    height: 180px;    
+    width: 100%;
+    background-color: black;
+}
+.about-right{
+    color:red;
+    float:left;
+    margin: 0 0 0 10%;
+    height: 180px;    
+    width: 90%;
+    background-color: black;
+}
+/* main content for three columns*/
 .text-left{
     float:left;
     margin: 0 0 0 10%;
@@ -283,56 +325,23 @@ main{
     text-align: left;
     background-color: rgb(21, 4, 100);
 }
-.top-text-left{
-    color: red;
-    float: left;
-    margin:  0 0 0 10%;
-    height:180px;
-    width:90%;
-    padding: 0 10% 0 0;
-    background-color: #fff;
-}
-.top-text-right{
-    float: left;
-    margin:  0 10% 0 0;
-    height:180px;
-    width:90%;
-    background-color: #fff;
-}
-.top-text-center{
-    float: left;
-    margin:  0 0 0 10%;
-    height:180px;
-    width:80%;
-    background-color: #fff;
-}
-.text-top{
-    float: left;
-height: 180px;    
-width: 90%;
-background-color: black;
-}
 /* Monster icons*/
-.monster-container{
-    overflow:visible;
-    margin: 0 0 0 10%;
-    height: 300px;
-    width: 300px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: 2px solid red;
+#selection-text{
+    margin: 5% 0 0 25%;
+    font-family: sans-serif;
+    color:#3a3a3a;
+    font-size:300%;
 }
 .monster-dracula{
     overflow: hidden;
-    margin: 0 0 0 10%;
+    margin: 10% 0 0 10%;
     height: 300px;
     width: 300px;
-    overflow: hidden;
     border-radius: 50%;
     border: 2px solid #3a3a3a;
 }
 .monster-dracula:hover{
-    margin: 0 30% 0 0;
+    margin: 5% 28% 0 0;
     height: 350px;
     width: 350px;
     border: 4px solid red;
@@ -344,7 +353,7 @@ background-color: black;
 }
 .monster-frankenstien{
     overflow: hidden;
-    margin: 0 0 0 10%;
+    margin: 10% 0 0 10%;
     height: 300px;
     width: 300px;
     overflow: hidden;
@@ -352,7 +361,7 @@ background-color: black;
     border: 2px solid #3a3a3a;
 }
 .monster-frankenstien:hover{
-    margin: 0 0 0 0;
+    margin: 5% 0 0 0;
     height: 350px;
     width: 350px;
     border: 4px solid lime;
@@ -363,7 +372,7 @@ background-color: black;
     max-width: 150%;
 }
 .monster-wolfman{
-    margin: 2% 0 0 10%;
+    margin: 10% 0 0 10%;
     height: 300px;
     width: 300px;
     overflow: hidden;
@@ -371,7 +380,7 @@ background-color: black;
     border: 2px solid #3a3a3a;
 }
 .monster-wolfman:hover{
-    margin: 0 30% 0 0;
+    margin: 5% 30% 0 0;
     height: 350px;
     width: 350px;
     border: 4px solid orangered;
@@ -381,28 +390,12 @@ background-color: black;
     max-height: 134%;
     max-width: 134%;
 }
-/*.text-box{
-    height: 150px;
-    width: 90%;
-    color: #3a3a3a;
-    background-color: black;
-}
-.text-box-left{
-    margin: 35px 0px 35px 35px ;
-    border-right: 2px solid #3a3a3a;
-    text-align: left;
-}
-.text-box-right{
-    margin: 35px 0px 35px 0px ;
-    border-left: 2px solid #3a3a3a;
-    text-align: right;
-}
-.text-box-center{
-    margin: 35px 0px 35px 0px ;
-    border-left: 2px solid #3a3a3a;
-}*/
-/* mini split columns*/
 /* footer section of website*/
+footer{
+    float: left;
+    height: 100px;
+    width: 100%;
+}
 .foot-container{
     height:100px;
     width:100%;
@@ -444,17 +437,11 @@ background-color: black;
     text-align: left;
     background-color: rgb(21, 4, 100);
 }
-
-footer{
-    float: left;
-    height: 100px;
-    width: 100%;
-}
 .link-container{
 margin: 20px 0 0 0;
-height: 50%;
+height: 70px;
 width: 100%;
-background-color: pink;
+border-right: 2px solid #3a3a3a;
 }
 #contain-left{
     border-right: 2px solid #3a3a3a;
@@ -477,8 +464,6 @@ background-color: pink;
     height: 100%;
     width: 100%;
     color:#3a3a3a;
-    background-color: yellow;
-
 }
 #twitt{
     font-size:200%;
@@ -486,7 +471,6 @@ background-color: pink;
     height: 100%;
     width: 100%;
     color:#3a3a3a;
-    background-color: yellow;
 }
 #tube{
     font-size:240%;
@@ -494,7 +478,6 @@ background-color: pink;
     height: 100%;
     width: 100%;
     color:#3a3a3a;
-    background-color: yellow;
 }
 #gram{
     font-size:260%;
@@ -502,7 +485,6 @@ background-color: pink;
     height: 100%;
     width: 100%;
     color:#3a3a3a;
-    background-color: yellow;
 }
 .foot-text1{
     margin: 0 10% 0 10%;
@@ -510,7 +492,4 @@ background-color: pink;
    width:80%;
    background-color: #3a3a3a; 
 }
-/*#right-link{
-    margin-left:;
-}*/
 
