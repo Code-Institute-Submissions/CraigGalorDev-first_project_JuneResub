@@ -180,24 +180,27 @@ main{
 .box2{   
     float: left; 
     height: 500px;
-    width: 47%;
-    padding: 6% 0 0 3%;
+    width: 25%;
     background-color:rgb(12, 182, 55);
+}
+.box-heading{
+
 }
 .box3{
     float: left;
-    height: 95%;
+    height: 400px;
     width: 100%;
     background-color:yellow;;
 }
 .box4{
     float: left;
     height: 100%;
-    width: 40%;
+    width: 80%;
     background-color:rgb(31, 163, 196);
     border-right:1px solid #3a3a3a ;
-     margin: 0 5% 0 0;
+     margin: 0 10% 0 10%;
 }
+
 .box5{
     float: left;
     height: 100%;
