@@ -178,13 +178,29 @@ main{
 }
 /* 2 column section */
 .box2{   
+    margin: 2% 0 0 0;
     float: left; 
-    height: 500px;
+    height: 400px;
     width: 25%;
     background-color:rgb(12, 182, 55);
 }
-.box-heading{
-
+.heading-box{
+    height:40px;
+    width:90%;
+    background-color: aliceblue;
+    padding-left:10%;
+}
+.border-box{
+    height:300px;
+    width:99%;
+    background-color: purple;
+    border-right: 2px solid #3a3a3a ;
+}
+.text-box1{
+    margin:0 10% 0 10%;
+    height:300px;
+    width:80%;
+    background-color: orange;
 }
 .box3{
     float: left;
