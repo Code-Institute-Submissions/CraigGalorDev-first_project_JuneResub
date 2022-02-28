@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     border:none;
+    font-family: 'Roboto', sans-serif;
+}
+h2, h3{
+    font-family: 'Quattrocento', serif; 
 }
 /* main title/heading to website index page*/
 header{
@@ -11,34 +15,48 @@ header{
 }
 /* header content */
 /* main title of the page and thier alternatives*/
-.Title-container{
+.title-container{
     height:100px;
     width:80%;
     margin: 0 0 0 10%;
     padding: 0;
+    background-color: yellow;
 }
-.Title-container > div{
+.title-container > div{
 display:inline-block;
 }
-.Title-box{
+.title-box{
     float: left;
     height:100px;
-    width:50%;
+    width:60%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    background-color: blue;
 }
-#Title{
+.title{
    font-family: 'Quattrocento', serif;
    font-weight: bold;
-   font-size: 40px;
+   font-size: 50px;
    margin:0 0 0 0 ;
-   padding: 10% 0 0 0;
-   color:red;
+   padding: 5% 0 0 0;
+   color:#3a3a3a;
+}
+.title em{
+    color:#3a3a3a;
+}
+#bela-title{
+    color:red;
+}
+#boris-title{
+    color:lime;
+}
+#lon-title{
+    color:orange;
 }
 /* This is the logo section */
 .logo-container{
     height:100px;
-    width:50%;
+    width:40%;
     margin: 0 0 0 0;
     font-size: large;
     font-family: sans-serif;
@@ -160,7 +178,6 @@ main{
     float: left;
     margin: 0 0 0 10%;
     width: 80%;
-    background-color: aquamarine;
 }
 main h2{
     font-family: 'Quattrocento', serif;
@@ -173,7 +190,6 @@ main h2{
     margin: 3% 0 0 0;
     height: 500px;
     width: 100%;
-    background-color:peru;
 }
 .part3{
     margin: 3% 0 0 0;
@@ -217,8 +233,18 @@ main h2{
     width: 25%;
     background-color:rgb(12, 182, 55);
 }
+.times{   
+    margin: 8px 0 0 0;
+}
 .box3{
     margin: 2% 0 0 0;
+    float: left; 
+    height: 400px;
+    width: 50%;
+    background-color:yellow;
+}
+.video{
+    margin: 0 0 0 0;
     float: left; 
     height: 400px;
     width: 50%;
@@ -284,15 +310,6 @@ main h2{
     padding: 0 0 0 5%;
 }
 /* this box is for video media*/
-.box-video{
-    margin: 6.3% 0 0 0;
-    float: left;
-    height: 300px;
-    width: 470px;
-    background-color:rgb(111, 196, 31);
-    border:1px solid #3a3a3a ;
-    padding: 0 0 0 0;
-}
 /* About section columns*/
 .top-content-left{
     float:left;
@@ -359,6 +376,21 @@ main h2{
     width: 90%;
     background-color: black;
     overflow: hidden;
+}
+.about-left > ul{
+    margin: 5px 0 0 0;
+    list-style: none;
+    background-color: aqua;
+}
+.about-left > ul li strong{
+    margin: 2px 0 0 0;
+    width:50%;
+    float:left;
+}
+.about-left > ul li em{
+    margin: 2px 0 0 0;
+    width:50%;
+    float:right;
 }
 /* main content for three columns*/
 .text-left{
@@ -567,6 +599,10 @@ main h2{
     width: 90%;
     background-color: black;
 }
+/* times customised content*/
+.mini-titles{
+    text-align: center;
+}
 /* footer section of website*/
 footer{
     float: left;
@@ -693,17 +729,32 @@ border-right: 2px solid #3a3a3a;
    border-bottom: 2px solid #3a3a3a;
 }
 /*content styling*/
-#fan{
+.fan{
     margin: 30% 30% 0 30%;
     color:red;
     font-size: 100px;
 
 }
+/* fan icons*/
+
+.fan{
+    margin: 20% 30% 0 30%;
+    color:red;
+    font-size: 100px;
+}
+.fan:hover{
+    margin: 10% 10% 0 21%;
+    color:red;
+    font-size: 150px;
+}
+/*horror night icons*/
 #fan:hover{
     margin: 10% 10% 0 21%;
     color:red;
     font-size: 150px;
 }
-p{
+
+.hide{
+    color: transparent;
 }
 
