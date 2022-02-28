@@ -246,19 +246,15 @@ main h2{
     margin:0 10% 0 10%;
     height:300px;
     width:80%;
-    background-color: orange;
 }
 .heading-box2{
     height:40px;
     width:90%;
-    background-color: aliceblue;
     padding-left:5%;
 }
 .border-box2{
     height:300px;
     width:99.5%;
-    background-color: purple;
-
 }
 .border-box2none{
     border: none;
@@ -515,6 +511,12 @@ main h2{
     height: 300px;    
     width: 90%;
 }
+/*legacy content*/
+#side-bela{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
 /* footer section of website*/
 footer{
     float: left;
@@ -638,6 +640,11 @@ width: 100%;
     margin: 10px 0 0 0;
 }
 /*horror night icons*/
+.horror-icon{
+    margin: 0 20% 0 20%;
+    height: 152px;
+    width:60%;
+    }
 #star-icon{
     margin: 10% 30% 20% 10%;
     color:#3a3a3a;
@@ -678,12 +685,6 @@ width: 100%;
     color:aqua;
     font-size: 130px; 
 }
-.horror-icon{
-    margin: 0 20% 0 20%;
-    height: 152px;
-    width:60%;
-    background-color: #fff;
-    }
 
 /* fan icons*/
 .fan-icon{
@@ -698,7 +699,7 @@ width:60%;
 }
 .fan:hover{
     margin: 0 10% 10% 0;
-    color:red;
+    color:skyblue;
     font-size: 150px;
 }
 #fan2{
@@ -708,7 +709,7 @@ width:60%;
 }
 #fan2:hover{
     margin: 5% 0 0 0;
-    color:red;
+    color:slateblue;
     font-size: 140px;
 }
 #fan3{
@@ -718,7 +719,7 @@ width:60%;
 }
 #fan3:hover{
     margin: 0 0 0 10%;
-    color:red;
+    color:slategray;
     font-size: 150px;
 }
 .fan-text{
