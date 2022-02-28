@@ -25,11 +25,12 @@ display:inline-block;
     height:100px;
     width:50%;
     margin: 0 0 0 0;
-    font-size: large;
-    font-family: sans-serif;
     padding: 0 0 0 0;
 }
 #Title{
+   font-family: 'Quattrocento', serif;
+   font-weight: bold;
+   font-size: 40px;
    margin:0 0 0 0 ;
    padding: 10% 0 0 0;
    color:red;
@@ -155,10 +156,14 @@ nav ul li a:hover{
 }
 /* main website content */
 main{
+    font-family: 'Quattrocento', serif;
     float: left;
     margin: 0 0 0 10%;
     width: 80%;
     background-color: aquamarine;
+}
+main h2{
+    font-family: 'Quattrocento', serif;
 }
 .part1{
     height: 250px;
@@ -396,10 +401,11 @@ main{
 }
 /* Monster icons*/
 #selection-text{
-    margin: 0 0 0 25%;
-    font-family: sans-serif;
-    color:#3a3a3a;
-    font-size:300%;
+       font-family: 'Quattrocento', serif;
+       font-weight: bold;
+       margin: 0 0 0 25%;
+       color:#3a3a3a;
+       font-size:300%;
 }
 .monster-dracula{
     overflow: hidden;
@@ -460,6 +466,7 @@ main{
     max-width: 134%;
 }
 .drac-name{
+    font-family:'Quattrocento', serif;
     margin: 0 0 0 40%;
 }
 #red-link{
@@ -471,6 +478,7 @@ main{
     text-decoration:none;  
 }
 .frank-name{
+    font-family:'Quattrocento', serif;
     margin: 0 0 0 30%;
 }
 #green-link{
@@ -482,6 +490,7 @@ main{
     text-decoration:none;  
 }
 .wolf-name{
+    font-family:'Quattrocento', serif;
     margin: 0 0 0 35%;
 }
 #orange-link{
