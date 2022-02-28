@@ -384,6 +384,16 @@ main{
     text-align: left;
     background-color: rgb(21, 4, 100);
 }
+.about{
+    word-break: break-all;
+    height:154px;
+    width: 291px;
+    background-color: #fff;
+}
+#red-link:hover{
+    color:red;
+    text-decoration:none;  
+}
 /* Monster icons*/
 #selection-text{
     margin: 0 0 0 25%;
@@ -452,11 +462,35 @@ main{
 .drac-name{
     margin: 0 0 0 40%;
 }
+#red-link{
+    color: #3a3a3a;
+    text-decoration:none;  
+}
+#red-link:hover{
+    color:red;
+    text-decoration:none;  
+}
 .frank-name{
     margin: 0 0 0 30%;
 }
+#green-link{
+    color: #3a3a3a;
+    text-decoration:none;  
+}
+#green-link:hover{
+    color:lime;
+    text-decoration:none;  
+}
 .wolf-name{
     margin: 0 0 0 35%;
+}
+#orange-link{
+    color: #3a3a3a;
+    text-decoration:none;  
+}
+#orange-link:hover{
+    color:orange;
+    text-decoration:none;  
 }
 /* 3column content*/
 .section-content-left{
