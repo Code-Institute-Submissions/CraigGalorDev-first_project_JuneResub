@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     border:none;
-    font-family: 'Roboto', sans-serif;
 }
 h2, h3{
     font-family: 'Quattrocento', serif; 
@@ -20,7 +19,6 @@ header{
     width:80%;
     margin: 0 0 0 10%;
     padding: 0;
-    background-color: yellow;
 }
 .title-container > div{
 display:inline-block;
@@ -29,15 +27,11 @@ display:inline-block;
     float: left;
     height:100px;
     width:60%;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    background-color: blue;
 }
 .title{
    font-family: 'Quattrocento', serif;
    font-weight: bold;
    font-size: 50px;
-   margin:0 0 0 0 ;
    padding: 5% 0 0 0;
    color:#3a3a3a;
 }
@@ -57,10 +51,8 @@ display:inline-block;
 .logo-container{
     height:100px;
     width:40%;
-    margin: 0 0 0 0;
     font-size: large;
     font-family: sans-serif;
-    padding: 0% 0 0 0;
 }
 .logo1{
     float:right;
@@ -105,7 +97,6 @@ display:inline-block;
     background-image: url(/assets/images/universal-classic-monsters-index.jpg);
     background-size:contain;
     background-position: 2px;
-    background-color: #3a3a3a;
     background-repeat: no-repeat;
     height:300px;
     width:1200px;
@@ -195,29 +186,24 @@ main h2{
     margin: 3% 0 0 0;
     height: 500px;
     width: 100%;
-    background-color: gainsboro;
 }
 .part4{
     margin: 3% 0 0 0;
     height: 500px;
     width: 100%;
-    background-color: grey;
 } 
 .part5 {
     height: 400px;
     width: 100%;
-    background-color: red;
 }
 .box-container1{
     margin: 0 0 0 0;
     height:100%;
     width:100%;
-    border-bottom: 2px solid #3a3a3a;
 }
 .box-container2{
     height:500px;
     width:100%;
-    border-bottom: 2px solid #3a3a3a;
 }
 
 .box1{
@@ -231,36 +217,27 @@ main h2{
     float: left; 
     height: 400px;
     width: 25%;
-    background-color:rgb(12, 182, 55);
-}
-.times{   
-    margin: 8px 0 0 0;
 }
 .box3{
     margin: 2% 0 0 0;
     float: left; 
     height: 400px;
     width: 50%;
-    background-color:yellow;
 }
 .video{
     margin: 0 0 0 0;
     float: left; 
     height: 400px;
     width: 50%;
-    background-color:yellow;
 }
 .heading-box1{
     height:40px;
     width:90%;
-    background-color: aliceblue;
     padding-left:10%;
 }
 .border-box1{
     height:300px;
     width:99%;
-    background-color: purple;
-    border-right: 2px solid #3a3a3a ;
 }
 .border-box1none{
     border: none;
@@ -281,7 +258,7 @@ main h2{
     height:300px;
     width:99.5%;
     background-color: purple;
-    border-right: 2px solid #3a3a3a ;
+
 }
 .border-box2none{
     border: none;
@@ -291,23 +268,6 @@ main h2{
     height:300px;
     width:90%;
     background-color: orange;
-}
-.box4{
-    float: left;
-    height: 100%;
-    width: 80%;
-    background-color:rgb(31, 163, 196);
-    border-right:1px solid #3a3a3a ;
-     margin: 0 10% 0 10%;
-}
-
-.box5{
-    float: left;
-    height: 100%;
-    width: 82%;
-    background-color:pink;
-    border-right:1px solid #3a3a3a ;
-    padding: 0 0 0 5%;
 }
 /* this box is for video media*/
 /* About section columns*/
@@ -340,13 +300,11 @@ main h2{
     height:180px;
     width:100%;
     padding: 0 0 0 0;
-    border-right: 2px solid #3a3a3a;
 }
 .top-text-right{
     float: left;
     height:180px;
     width:100%;
-    border-left: 2px solid #3a3a3a;
 }
 .top-text-center{
     float: left;
@@ -355,32 +313,28 @@ main h2{
     width:80%;
 }
 .about-left{
-    color:red;
+    color:#3a3a3a;
     float: left;
     height: 180px;    
     width: 90%;
-    background-color: black;
 }
 .about-center{
-    color:red;
+    color:#3a3a3a;
     float: left;
     height: 180px;    
     width: 100%;
-    background-color: black;
 }
 .about-right{
-    color:red;
+    color:#3a3a3a;
     float:left;
     margin: 0 0 0 10%;
     height: 180px;    
     width: 90%;
-    background-color: black;
     overflow: hidden;
 }
 .about-left > ul{
     margin: 5px 0 0 0;
     list-style: none;
-    background-color: aqua;
 }
 .about-left > ul li strong{
     margin: 2px 0 0 0;
@@ -392,45 +346,12 @@ main h2{
     width:50%;
     float:right;
 }
-/* main content for three columns*/
-.text-left{
-    float:left;
-    margin: 0 0 0 10%;
-    height: 350px;
-    width: 90%;
-    padding: 10px 0 0 0;
-    background-color: rgb(71, 255, 102);
-}
-.text-right{
-    float:left;
-    margin: 0 10% 0 0;
-    height: 350px;
-    width: 90%;
-    padding: 10px 0 0 0;
-    text-align: center;
-    text-align: left;
-    background-color: rgb(52, 14, 155);
-}
-.text-center{
-    float:left;
-    margin: 0 0 0 0;
-    height: 350px;
-    width: 100%;
-    padding: 10px 0 0 0;
-    text-align: center;
-    text-align: left;
-    background-color: rgb(21, 4, 100);
-}
 .about{
-    word-break: break-all;
+    margin: 5px 0 0 0;
     height:154px;
     width: 291px;
-    background-color: #fff;
 }
-#red-link:hover{
-    color:red;
-    text-decoration:none;  
-}
+/* main content for three columns*/
 /* Monster icons*/
 #selection-text{
        font-family: 'Quattrocento', serif;
@@ -530,7 +451,7 @@ main h2{
     text-decoration:none;  
 }
 #orange-link:hover{
-    color:orange;
+    color:orangered;
     text-decoration:none;  
 }
 /* 3column content*/
@@ -563,13 +484,11 @@ main h2{
     height:300px;
     width:100%;
     padding: 0 0 0 0;
-    border-right: 2px solid #3a3a3a;
 }
 .content-text-right{
     float: left;
     height:300px;
     width:100%;
-    border-left: 2px solid #3a3a3a;
 }
 .content-text-center{
     float: left;
@@ -578,30 +497,23 @@ main h2{
     width:80%;
 }
 .content-left{
-    color:red;
+    color:#3a3a3a;
     float: left;
     height: 300px;    
     width: 90%;
-    background-color: black;
 }
 .content-center{
-    color:red;
+    color:#3a3a3a;
     float: left;
     height: 300px;    
     width: 100%;
-    background-color: black;
 }
 .content-right{
-    color:red;
+    color:#3a3a3a;
     float:left;
     margin: 0 0 0 10%;
     height: 300px;    
     width: 90%;
-    background-color: black;
-}
-/* times customised content*/
-.mini-titles{
-    text-align: center;
 }
 /* footer section of website*/
 footer{
@@ -613,7 +525,6 @@ footer{
     height:100px;
     width:100%;
     margin: 0;
-    border-top: 2px solid #3a3a3a;
 }
 .foot-box{
     float: left;
@@ -649,10 +560,6 @@ footer{
 margin: 20px 0 0 0;
 height: 70px;
 width: 100%;
-border-right: 2px solid #3a3a3a;
-}
-#contain-left{
-    border-right: 2px solid #3a3a3a;
 }
 .link-box{
     overflow: hidden;
@@ -719,42 +626,153 @@ border-right: 2px solid #3a3a3a;
     margin: 20px 10% 0 0;
    height:70px;
    width:90%; 
-   border-left: 2px solid #3a3a3a;
 }
 .foot-text1{
     margin: 20px 0 0 10%;
    height:70px;
    width:290px;
-   background-color:red; 
-   border-bottom: 2px solid #3a3a3a;
 }
 /*content styling*/
-.fan{
-    margin: 30% 30% 0 30%;
-    color:red;
-    font-size: 100px;
-
+/* times customised content*/
+.times{   
+    margin: 10px 0 0 0;
 }
-/* fan icons*/
+/*horror night icons*/
+#star-icon{
+    margin: 10% 30% 20% 10%;
+    color:#3a3a3a;
+    font-size: 100px;
+}
+#star-icon:hover{
+    margin: 0% 10% 0 -2%;
+    color:black;
+    font-size: 130px;
+}
+#wiz-icon{
+    margin: 10% 30% 20% -5%;
+    color:#3a3a3a;
+    font-size: 100px;
+}
+#wiz-icon:hover{
+    margin: 0% 10% 0 -20%;
+    color:purple;
+    font-size: 130px; 
+}
+#mash-icon{
+    margin: 10% 30% 20% 10%;
+    color:#3a3a3a;
+    font-size: 100px;
+}
+#mash-icon:hover{
+    margin: 0% 10% 0 0;
+    color:orangered;
+    font-size: 130px; 
+}
+#hallow-icon{
+    margin: 10% 30% 20% 20%;
+    color:#3a3a3a;
+    font-size: 100px;
+}
+#hallow-icon:hover{
+    margin: 0% 10% 0 10%;
+    color:aqua;
+    font-size: 130px; 
+}
+.horror-icon{
+    margin: 0 20% 0 20%;
+    height: 152px;
+    width:60%;
+    background-color: #fff;
+    }
 
+/* fan icons*/
+.fan-icon{
+margin: 0 20% 0 20%;
+height: 152px;
+width:60%;
+}
 .fan{
-    margin: 20% 30% 0 30%;
-    color:red;
+    margin: 10% 30% 20% 20%;
+    color:#3a3a3a;
     font-size: 100px;
 }
 .fan:hover{
-    margin: 10% 10% 0 21%;
+    margin: 0 10% 10% 0;
     color:red;
     font-size: 150px;
 }
-/*horror night icons*/
-#fan:hover{
-    margin: 10% 10% 0 21%;
+#fan2{
+    margin: 10% 30% 20% 15%;
+    color:#3a3a3a;
+    font-size: 100px;
+}
+#fan2:hover{
+    margin: 5% 0 0 0;
+    color:red;
+    font-size: 140px;
+}
+#fan3{
+    margin: 10% 30% 20% 20%;
+    color:#3a3a3a;
+    font-size: 100px;
+}
+#fan3:hover{
+    margin: 0 0 0 10%;
     color:red;
     font-size: 150px;
 }
-
+.fan-text{
+    color: #3a3a3a;
+    height: 50px;
+    width:100% ;
+}
+/* general styling of headings and text*/
+.main-titles{
+    color:#3a3a3a;
+}
+.bela-titles{
+    color:crimson;
+}
+.boris-titles{
+    color:green;
+}
+.lon-titles{
+    color:orangered;
+}
+.title-red{
+color:rgb(247, 10, 10);
+}
+/* this keeps the heading spacing but hides unwanted text*/
 .hide{
     color: transparent;
 }
-
+.mini-titles{
+    text-align: center;
+}
+.nights{
+    margin: 10px 0 0 0;
+}
+/*border styling and customisation*/
+.no-border{
+border: none;
+}
+.red-border{
+    border-color: 2px solid rgb(247, 10, 10);
+}
+.green-border{
+    border-color: 2px solid green;
+}
+.orange-border{
+    border-color: 2px solid orangered;
+}
+.red-border1{
+    border-top: 2px solid red;
+}
+.red-border2{
+    border-right: 2px solid red;
+}
+.red-border3{
+    border-bottom: 2px solid red;
+}
+.red-border4{
+    border-left: 2px solid red;}
