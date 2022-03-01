@@ -102,6 +102,15 @@ display:inline-block;
     background-color:green;
     opacity: 40%;
 }
+#form-cover{
+    color:#fff;
+    margin: 0 0 0 0;
+    float: right;
+    height: 800px;
+    width:470px;
+    background-color:black;
+    opacity: 100%;
+}
 #orange-cover{
     color:#fff;
     float: right;
@@ -865,8 +874,7 @@ border: none;
 .orange-border4{
     border-left: 2px solid orangered;
 }
-    
-/*images for website*/
+    /*images for website*/
 .pic-border{
     overflow: hidden;
             }
@@ -892,15 +900,35 @@ width:110%;
     height:120%;
     width:100%;
     }
+#fade-red{
+    float: left;
+    height: 100%;
+    width: 100%;
+    background-color:red;
+    opacity: 60%;
+}
+#fade-red:hover{
+    background-color:red;
+    opacity: 0%;
+}
 #boris-pic1{
-    background-image: url(/assets/images/boris-pic1.jpg);
+    background-image: url(/assets/images/boris-pic2alpha.jpg);
     background-size:contain;
+    float: left;
     background-repeat: no-repeat;
-    margin: -5% 0 0 0;
-    height:160%;
-    width:140%;
-    overflow: hidden;
-    }
+    margin: 0 0 0 0;
+    height:140%;
+    width:50%;
+}
+#boris-pic4{
+    background-image: url(/assets/images/boris-pic1.jpg);
+    background-size: contain;
+    float: right;
+    background-repeat: no-repeat;
+    margin: 0 0 0 0;
+    height:130%;
+    width:50%;
+}
 #boris-pic2{
     background-image: url(/assets/images/boris-pic2.jpg);
     background-size:contain;
@@ -908,49 +936,124 @@ width:110%;
     margin: -17% 0 0 -2%;
     height:210%;
     width:180%;
-    }
+}
 #boris-pic3{
     background-image: url(/assets/images/boris-pic3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height:100%;
+    height:102%;
+    width:108%;
+}
+#fade-green{
+    float: left;
+    height: 100%;
+    width: 100%;
+    background-color:lime;
+    opacity: 50%;
+}
+#fade-green:hover{
+    background-color: lime;
+    opacity: 0%;
+}
+#chaney-pic1{
+    background-image: url(/assets/images/chaney-pic1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: 0 0 0 0;
+    height:205%;
+    width:100%;
+    overflow: hidden;
+    }
+#chaney-pic2{
+    background-image: url(/assets/images/chaney-pic2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: 0 0 0 0;
+    height:130%;
     width:100%;
     }
-    #chaney-pic1{
-        background-image: url(/assets/images/chaney-pic1.jpg);
-        background-size:contain;
-        background-repeat: no-repeat;
-        margin: 0 0 0 0;
-        height:205%;
-        width:100%;
-        overflow: hidden;
-        }
-    #chaney-pic2{
-        background-image: url(/assets/images/chaney-pic2.jpg);
-        background-size:contain;
-        background-repeat: no-repeat;
-        margin: 0 0 0 0;
-        height:130%;
-        width:100%;
-        }
-    #chaney-pic3{
-        background-image: url(/assets/images/chaney-pic3.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        height:119%;
-        width:110%;
-        }
-        /*paragraph spacing*/ 
-    .p-line-space{
-        margin: 0 0 6px 0;
+#chaney-pic3{
+    background-image: url(/assets/images/chaney-pic3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:119%;
+    width:110%;
     }
-    .cover-qoute{
-        text-align: center;
-    font-size:larger;
-    }
-    .cover-mark-top{
-        font-size: 50px;
-    }
-    .cover-mark-bottom{
-        font-size: 50px;
-    }
+#fade-orange{
+    float: left;
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    opacity: 60%;
+}
+#fade-orange:hover{
+    background-color: orange;
+    opacity: 0%;
+}
+/*paragraph spacing and styling*/ 
+.p-line-space{
+    margin: 0 0 6px 0;
+}
+/*Cover styling*/
+.cover-qoute{
+    text-align: center;
+font-size:larger;
+}
+.cover-mark-top{
+    font-size: 50px;
+}
+.cover-mark-bottom{
+    margin: 0 0 0 200px;
+    font-size: 50px;
+}
+.cover-sig{
+    text-align: center;
+}
+/* this is the form section*/
+.form-img{
+    background-image: url(/assets/images/hhn-logo-Large.png);
+    background-size:40%;
+    background-color: black;
+    background-position: 2px;
+    background-repeat: no-repeat;
+    height:300px;
+    width:1200px;
+}
+.signup-form{
+    width: 100%;
+    height:100% ;
+    padding: 30px;
+    opacity: 100%;
+}
+label{
+    margin: 10px 20px 10px 0;
+    height:20px;
+    width: 10%;
+    clear:right;
+}
+input{
+    background:transparent;
+    margin: 10px 50px 10px 0;
+    height:22px;
+    width: 60%;
+    clear:right;
+    border: 2px solid #fff;
+}
+#fname{
+    margin: 10px 50px 10px 10px;
+}
+#lname{
+    margin: 10px 50px 10px 11px;
+}
+#email{
+    margin:10px 50px 10px 7px;
+}
+#submit{
+    background-color: #fff;
+    width: 85%;
+    margin:10px 0px 10px 0px;
+}
+#form-title{
+    margin:10px 60px 10px 0px;
+    text-align: center;
+}
