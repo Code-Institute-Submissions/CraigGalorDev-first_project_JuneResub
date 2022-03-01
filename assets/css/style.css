@@ -47,6 +47,9 @@ display:inline-block;
 #lon-title{
     color:orange;
 }
+#form-title{
+    color: aqua;
+}
 /* This is the logo section */
 .logo-container{
     height:100px;
@@ -81,8 +84,6 @@ display:inline-block;
     float: right;
     height: 800px;
     width:470px;
-    background-color:#3a3a3a;
-    opacity: 40%;
 }
 #red-cover{
     color:#fff;
@@ -117,7 +118,7 @@ display:inline-block;
     height: 800px;
     width:470px;
     background-color:orange;
-    opacity: 40%;
+    opacity: 60%;
 }
 #universal-hollywood{
     height: 100px;
@@ -283,12 +284,6 @@ main h2{
     height: 400px;
     width: 50%;
 }
-.video{
-    margin: 0 0 0 0;
-    float: left; 
-    height: 400px;
-    width: 50%;
-}
 .heading-box1{
     height:40px;
     width:90%;
@@ -322,7 +317,6 @@ main h2{
     margin:0 0 0 5%;
     height:300px;
     width:90%;
-    background-color: orange;
 }
 /* this box is for video media*/
 /* About section columns*/
@@ -894,16 +888,16 @@ height:130%;
 width:110%;
 }
 #bela-pic3{
-    background-image: url(/assets/images/bela-header.webp);
+    background-image: url(/assets/images/bela-pic3.jpg);
     background-size:contain;
     background-repeat: no-repeat;
-    height:120%;
+    height:110%;
     width:100%;
     }
 #fade-red{
     float: left;
     height: 100%;
-    width: 100%;
+    width: 99%;
     background-color:red;
     opacity: 60%;
 }
@@ -989,6 +983,12 @@ width:110%;
 #fade-orange:hover{
     background-color: orange;
     opacity: 0%;
+}/*media videos*/
+.video{
+    margin: 0 0 0 0;
+    float: left; 
+    height: 400px;
+    width: 50%;
 }
 /*paragraph spacing and styling*/ 
 .p-line-space{
@@ -1032,12 +1032,16 @@ label{
     clear:right;
 }
 input{
+    color:#fff;
     background:transparent;
     margin: 10px 50px 10px 0;
     height:22px;
     width: 60%;
     clear:right;
     border: 2px solid #fff;
+}
+.text-input:hover{
+    border: 2px solid aqua;
 }
 #fname{
     margin: 10px 50px 10px 10px;
@@ -1049,11 +1053,17 @@ input{
     margin:10px 50px 10px 7px;
 }
 #submit{
+    color: #000;
     background-color: #fff;
     width: 85%;
     margin:10px 0px 10px 0px;
 }
+#submit:hover{
+    color:#3a3a3a;
+    background-color:aqua;
+}
 #form-title{
+    color: aqua;
     margin:10px 60px 10px 0px;
     text-align: center;
 }
