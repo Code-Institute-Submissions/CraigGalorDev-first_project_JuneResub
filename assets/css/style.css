@@ -77,11 +77,37 @@ display:inline-block;
 }
 #cover{
     color: black;
-    margin: 10% 0 0 0;
+    margin: 0 0 0 0;
     float: right;
-    height: 200px;
-    width:400px;
+    height: 800px;
+    width:470px;
     background-color:#3a3a3a;
+    opacity: 40%;
+}
+#red-cover{
+    color:#fff;
+    margin: 0 0 0 0;
+    float: right;
+    height: 800px;
+    width:470px;
+    background-color:crimson;
+    opacity: 40%;
+}
+#green-cover{
+    color:#fff;
+    margin: 0 0 0 0;
+    float: right;
+    height: 800px;
+    width:470px;
+    background-color:green;
+    opacity: 40%;
+}
+#orange-cover{
+    color:#fff;
+    float: right;
+    height: 800px;
+    width:470px;
+    background-color:orange;
     opacity: 40%;
 }
 #universal-hollywood{
@@ -95,7 +121,31 @@ display:inline-block;
 }
 .img{
     background-image: url(/assets/images/universal-classic-monsters-index.jpg);
-    background-size:contain;
+    background-size:50%;
+    background-position: 2px;
+    background-repeat: no-repeat;
+    height:300px;
+    width:1200px;
+}
+.lugosi{
+    background-image: url(/assets/images/bela-header.webp);
+    background-size:50%;
+    background-position: 2px;
+    background-repeat: no-repeat;
+    height:300px;
+    width:1200px;
+}
+.karloff{
+    background-image: url(/assets/images/Boris_Karloff.jpg);
+    background-size:50%;
+    background-position: 2px;
+    background-repeat: no-repeat;
+    height:300px;
+    width:1200px;
+}
+.chaney{
+    background-image: url(/assets/images/Lon\ chaney.jpg);
+    background-size:50%;
     background-position: 2px;
     background-repeat: no-repeat;
     height:300px;
@@ -735,14 +785,24 @@ width:60%;
     color:crimson;
 }
 .boris-titles{
-    color:green;
+    color:lime;
 }
 .lon-titles{
     color:orangered;
 }
+.title-grey{
+    color:#3a3a3a;
+    }
 .title-red{
-color:rgb(247, 10, 10);
+color:rgb(255, 0, 0);
 }
+.title-green{
+    color:lime;
+}
+.title-orange{
+    color:orange;
+}
+
 /* this keeps the heading spacing but hides unwanted text*/
 .hide{
     color: transparent;
@@ -757,23 +817,140 @@ color:rgb(247, 10, 10);
 .no-border{
 border: none;
 }
-.red-border{
-    border-color: 2px solid rgb(247, 10, 10);
+.grey-border1{
+    border-top: 2px solid #3a3a3a;
 }
-.green-border{
-    border-color: 2px solid green;
+.grey-border2{
+    border-right: 2px solid #3a3a3a;
 }
-.orange-border{
-    border-color: 2px solid orangered;
+.grey-border3{
+    border-bottom: 2px solid #3a3a3a;
+}
+.grey-border4{
+    border-left: 2px solid #3a3a3a;
 }
 .red-border1{
-    border-top: 2px solid red;
+    border-top: 2px solid crimson;
 }
 .red-border2{
-    border-right: 2px solid red;
+    border-right: 2px solid crimson;
 }
 .red-border3{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid crimson;
 }
 .red-border4{
-    border-left: 2px solid red;}
+    border-left: 2px solid crimson;
+}
+.green-border1{
+    border-top: 2px solid green;
+}
+.green-border2{
+    border-right: 2px solid green;
+}
+.green-border3{
+    border-bottom: 2px solid green;
+}
+.green-border4{
+    border-left: 2px solid green;
+}
+.orange-border1{
+    border-top: 2px solid orangered;
+}
+.orange-border2{
+    border-right: 2px solid orangered;
+}
+.orange-border3{
+    border-bottom: 2px solid orangered;
+}
+.orange-border4{
+    border-left: 2px solid orangered;
+}
+    
+/*images for website*/
+.pic-border{
+    overflow: hidden;
+            }
+#bela-pic1{
+background-image: url(/assets/images/bela-pic1.jpg);
+background-repeat: no-repeat;
+background-size:contain;
+margin: -12% 0 0 0;
+height:265%;
+width:100%;
+}
+#bela-pic2{
+background-image: url(/assets/images/bela-pic2.png);
+background-size:contain;
+background-repeat: no-repeat;
+height:130%;
+width:110%;
+}
+#bela-pic3{
+    background-image: url(/assets/images/bela-header.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:120%;
+    width:100%;
+    }
+#boris-pic1{
+    background-image: url(/assets/images/boris-pic1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: -5% 0 0 0;
+    height:160%;
+    width:140%;
+    overflow: hidden;
+    }
+#boris-pic2{
+    background-image: url(/assets/images/boris-pic2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: -17% 0 0 -2%;
+    height:210%;
+    width:180%;
+    }
+#boris-pic3{
+    background-image: url(/assets/images/boris-pic3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:100%;
+    width:100%;
+    }
+    #chaney-pic1{
+        background-image: url(/assets/images/chaney-pic1.jpg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin: 0 0 0 0;
+        height:205%;
+        width:100%;
+        overflow: hidden;
+        }
+    #chaney-pic2{
+        background-image: url(/assets/images/chaney-pic2.jpg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin: 0 0 0 0;
+        height:130%;
+        width:100%;
+        }
+    #chaney-pic3{
+        background-image: url(/assets/images/chaney-pic3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height:119%;
+        width:110%;
+        }
+        /*paragraph spacing*/ 
+    .p-line-space{
+        margin: 0 0 6px 0;
+    }
+    .cover-qoute{
+        text-align: center;
+    font-size:larger;
+    }
+    .cover-mark-top{
+        font-size: 50px;
+    }
+    .cover-mark-bottom{
+        font-size: 50px;
+    }
