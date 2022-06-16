@@ -58,7 +58,7 @@ display:inline-block;
     color:orange;
 }
 #form-title{
-    color:aqua;
+    color:rgb(6, 160, 160);
 }
 /* This is the logo section */
 .logo-container{
@@ -1075,7 +1075,7 @@ input{
     background-color:aqua;
 }
 #form-title{
-    color: aqua;
+    color: rgb(11, 185, 185);
     margin:10px 60px 10px 0px;
     text-align: center;
 }
